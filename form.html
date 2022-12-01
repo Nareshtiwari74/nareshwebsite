@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>
+        Complaints <br>Regestration Form
+    </h1>
+    <table align="center" cellpadding="10">
+        <tr>
+            <td>First Name :</td>
+            <td><input type="text" id="name" placeholder="Enter Your First Name"></td>
+            
+            
+        </tr>
+        <tr>
+            <td>Last Name :</td>
+            <td><input type="text" id="name" placeholder="Enter Your Last Name"></td>
+            
+            
+        </tr>
+        <br>
+        <tr>
+            <td>Type Of Complaint</td>
+            <td><input type="text" id="name" placeholder="Enter Type Of Complaint"></td>
+            
+        </tr>
+        <br>
+        <tr>
+            <td>Password :</td>
+            <td><input type="password" id="name" name="pass" placeholder="Enter Your Password"></td>
+        </tr>
+        <tr>
+            <td>RE-Enter Password :</td>
+            <td><input type="password" id="name" name="pass" placeholder="Enter Your Password again"></td>
+        </tr>
+        <tr>
+            <td>Date Of Birth :</td>
+        <td><input type="date" id="name" name="DOB" placeholder="Enter Your Date Of Birth"></td>
+        </tr>
+        <tr>
+            <td>Gender :</td>
+            <td><input type="radio" name="male">Male <input type="radio" name="male">Female<input type="radio" name="male">Other</td>
+        </tr>
+        <tr>
+            <td>Address :</td>
+            <td><textarea name="" id="" cols="25" rows="6" placeholder="Enter Your Address"></textarea></td>
+        </tr>
+        <tr>
+            <td>City :</td>
+            <td><input type="text" id="name" name="city" placeholder="Enter Your City"></td>
+        </tr>
+        <tr>
+            <td>District :</td>
+            <td><input type="text" id="name" name="state" placeholder="Enter Your District"></td>
+        </tr>
+        <tr>
+            <td>State :</td>
+            <td><input type="text" id="name" name="state" placeholder="Enter Your State"></td>
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+        </tr>
+        <div>
+            <form action="/action_page.php">
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+            </form>
+        </div>
+        <tr>
+            <td>Pincode :</td>
+            <td><input type="number" id="name" name="num" placeholder="Enter Your Pincode"></td>
+        </tr>
+        <tr>
+            <td>Breif About The Situation :</td>
+            <td><input name="name" id="" cols="25" rows="6" placeholder="Describe The Situation"></textarea></td>
+
+        </tr>
+        <tr>
+            <td>Upload Img/Video :</td>
+            <td><textarea name="Upload" id="name" placeholder="Upload Here"></textarea></td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2">
+                <input type="submit" value="Submit">
+                &nbsp;&nbsp;<input type="submit" value="Reset">
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
